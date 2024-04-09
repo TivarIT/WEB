@@ -35,12 +35,6 @@ footer {
 .product-card .card-text {
     text-align: center;
 }
-.product-card .card-price {
-    position: absolute;
-    bottom: 50px;
-    left: 50%;
-    transform: translateX(-50%);
-}
 .product-card .btn-primary {
     position: absolute;
     bottom: 10px;
