@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фигурки</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-container">
+        <!-- Хедер -->
+        <header class="bg-dark py-3">
+            <div class="container d-flex justify-content-between align-items-center">
+                <nav>
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="index.html" class="text-light">Главная</a></li>
+                        <li class="list-inline-item dropdown">
+                            <a class="text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Каталог
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="warhammer.html">Warhammer</a></li>
+                                <li><a class="dropdown-item" href="dnd.html">Dungeons & Dragons</a></li>
+                                <li><a class="dropdown-item" href="figures.html">Фигурки</a></li>
+                                <!-- Другие категории -->
+                            </ul>
+                        </li>
+                        <li class="list-inline-item"><a href="#" class="text-light">О нас</a></li>
+                        <!-- Другие пункты меню -->
+                    </ul>
+                </nav>
+                <div>
+                    <a href="#" class="btn btn-outline-light me-2">Вход</a>
+                    <a href="#" class="btn btn-outline-light">Корзина</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Основное содержимое страницы -->
+        <div class="container mt-5">
+            <div class="row">
+                <!-- Панель фильтров -->
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Фильтры</h5>
+                            <!-- Форма для фильтров -->
+                            <form>
+                                <!-- Ползунок цен -->
+                                <div class="mb-3">
+                                    <label for="priceRange" class="form-label">Цена:</label>
+                                    <input type="range" class="form-range" id="priceRange">
+                                </div>
+                                <!-- Чекбоксы наличия товаров -->
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="availabilityCheck">
+                                    <label class="form-check-label" for="availabilityCheck">Есть в наличии</label>
+                                </div>
+                                <!-- Другие фильтры -->
+                                <button type="submit" class="btn btn-primary">Применить</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Карточки товаров -->
+                <div class="col-md-9">
+                    <h1>Фигурки</h1>
+                    <!-- Сетка карточек товаров -->
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <!-- Карточка товара -->
+                        <div class="col">
+                            <div class="card border">
+                                <img src="img\figures\1.jpg" class="card-img-top" alt="Konosuba — Megumin">
+                                <div class="product-card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Konosuba — Megumin</h5>
+                                        <p class="card-text">Фигурка Nendoroid</p>
+                                        <button class="btn btn-primary">68</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card border">
+                                <img src="img\figures\2.jpg" class="card-img-top" alt="Metal Gear Solid 2 — Solid Snake">
+                                <div class="product-card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Metal Gear Solid 2 — Solid Snake</h5>
+                                        <p class="card-text">Фигурка Figma</p>
+                                        <button class="btn btn-primary">73</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card border">
+                                <img src="img\figures\3.jpg" class="card-img-top" alt="Jeanne d'Arc 1/7">
+                                <div class="product-card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Jeanne d'Arc 1/7</h5>
+                                        <p class="card-text">Фигурка Fate/Grand Order</p>
+                                        <button class="btn btn-primary">225</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card border">
+                                <img src="img\figures\4.jpg" class="card-img-top" alt="OTs-14 - Crassula Volkensii Ver.">
+                                <div class="product-card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">OTs-14 - Crassula Volkensii Ver.</h5>
+                                        <p class="card-text">Фигурка Girls Frontline</p>
+                                        <button class="btn btn-primary">95</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card border">
+                                <img src="img\figures\5.jpg" class="card-img-top" alt="Kujo Jotaro - Super Action Statue BIG">
+                                <div class="product-card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Kujo Jotaro - Super Action Statue BIG</h5>
+                                        <p class="card-text">Фигурка Jojo no Kimyou na Bouken</p>
+                                        <button class="btn btn-primary">100</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Другие карточки товаров -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Футер -->
+    <div class="footer">
+        <footer class="bg-dark text-light py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="text-end">
+                            <p class="mb-0">220092, Республика Беларусь, г.Минск, ул.Притыцкого, 188, офис 536</p>
+                            <p class="mb-0">Телефон: +375 (29) 999-99-99</p>
+                            <p>Email: info@example.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Подключение скриптов Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

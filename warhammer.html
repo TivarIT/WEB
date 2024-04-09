@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warhammer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-container">
+        <!-- Хедер -->
+        <header class="bg-dark py-3">
+            <div class="container d-flex justify-content-between align-items-center">
+                <nav>
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="index.html" class="text-light">Главная</a></li>
+                        <li class="list-inline-item dropdown">
+                            <a class="text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Каталог
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="warhammer.html">Warhammer</a></li>
+                                <li><a class="dropdown-item" href="dnd.html">Dungeons & Dragons</a></li>
+                                <li><a class="dropdown-item" href="#">Фигурки</a></li>
+                                <!-- Другие категории -->
+                            </ul>
+                        </li>
+                        <li class="list-inline-item"><a href="#" class="text-light">О нас</a></li>
+                        <!-- Другие пункты меню -->
+                    </ul>
+                </nav>
+                <div>
+                    <a href="#" class="btn btn-outline-light me-2">Вход</a>
+                    <a href="#" class="btn btn-outline-light">Корзина</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Основное содержимое страницы -->
+        <div class="container mt-5">
+            <div class="row">
+                <!-- Панель фильтров -->
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Фильтры</h5>
+                            <!-- Форма для фильтров -->
+                            <form>
+                                <!-- Ползунок цен -->
+                                <div class="mb-3">
+                                    <label for="priceRange" class="form-label">Цена:</label>
+                                    <input type="range" class="form-range" id="priceRange">
+                                </div>
+                                <!-- Чекбоксы наличия товаров -->
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="availabilityCheck">
+                                    <label class="form-check-label" for="availabilityCheck">Есть в наличии</label>
+                                </div>
+                                <!-- Другие фильтры -->
+                                <button type="submit" class="btn btn-primary">Применить</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Карточки товаров -->
+                <div class="col-md-9">
+                    <h1>Warhammer</h1>
+                    <!-- Сетка карточек товаров -->
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <!-- Карточка товара -->
+                        <div class="col">
+                            <div class="card border">
+                                <img src="img\warhammer\1.jpg" class="card-img-top" alt="Mortarion: Daemon Primarch of Nurgle">
+                                <div class="product-card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mortarion: Daemon Primarch of Nurgle (2020)</h5>
+                                        <p class="card-text">Король разложения и болезней</p>
+                                        <button class="btn btn-primary">559</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card border">
+                                <img src="img\warhammer\2.jpg" class="card-img-top" alt="Combat Patrol: Death Guard">
+                                <div class="product-card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Combat Patrol: Death Guard</h5>
+                                        <p class="card-text">Заражение в 41-м тысячелетии</p>
+                                        <button class="btn btn-primary">540</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card border">
+                                <img src="img\warhammer\3.jpg" class="card-img-top" alt="Tyranids: Hormagaunts">
+                                <div class="product-card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Tyranids: Hormagaunts</h5>
+                                        <p class="card-text">Death Delivery</p>
+                                        <button class="btn btn-primary">159</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card border">
+                                <img src="img\warhammer\4.jpg" class="card-img-top" alt="Warhammer 40,000: Astra Militarum Army Set">
+                                <div class="product-card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Warhammer 40,000: Astra Militarum Army Set</h5>
+                                        <p class="card-text">Костяк крупнейших армий Империума.</p>
+                                        <button class="btn btn-primary">620</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card border">
+                                <img src="img\warhammer\5.jpg" class="card-img-top" alt="Adepta Sororitas: Sister Dogmata">
+                                <div class="product-card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Adepta Sororitas: Sister Dogmata</h5>
+                                        <p class="card-text">Блюстительница порядка</p>
+                                        <button class="btn btn-primary">55</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Другие карточки товаров -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Футер -->
+    <div class="footer">
+        <footer class="bg-dark text-light py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="text-end">
+                            <p class="mb-0">220092, Республика Беларусь, г.Минск, ул.Притыцкого, 188, офис 536</p>
+                            <p class="mb-0">Телефон: +375 (29) 999-99-99</p>
+                            <p>Email: info@example.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Подключение скриптов Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+.product-card {
+    height: 200px;
+}
+.product-card .card-body {
+    overflow: hidden; 
+}
+.card-img-top {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+    margin: auto;
+}
+.product-card .card-text {
+    text-align: center;
+}
+.product-card .btn-primary {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
