@@ -20,11 +20,9 @@ footer {
     color: #fff;
     padding: 10px 0;
 }
-.product-card {
-    height: 200px;
-}
-.product-card .card-body {
-    overflow: hidden; 
+.card {
+    height: 400px;
+    margin-bottom: 20px;
 }
 .card-img-top {
     width: 200px; 
@@ -32,10 +30,22 @@ footer {
     object-fit: cover; 
     margin: auto;
 }
-.product-card .card-text {
+.card-text {
+    font-size: 14px;
+    margin-top: 10px;
     text-align: center;
 }
-.product-card .btn-primary {
+.card-title {
+    font-size: 18px;
+    color: #666;
+}
+.card-price {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.btn-primary {
     position: absolute;
     bottom: 10px;
     left: 50%;

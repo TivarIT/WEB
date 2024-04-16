@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Mortarion: Daemon Primarch of Nurgle (2020)",
+    "category": "warhammer",
+    "description": "Король разложения и болезней",
+    "price": 559,
+    "image": "img/warhammer/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Combat Patrol: Death Guard",
+    "category": "warhammer",
+    "description": "Заражение в 41-м тысячелетии",
+    "price": 540,
+    "image": "img/warhammer/2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Adeptus Mechanicus: Elimination Maniple",
+    "category": "warhammer",
+    "description": "В авангарде архимагоса Коула",
+    "price": 726,
+    "image": "img/warhammer/3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Warhammer 40,000: Astra Militarum Army Set",
+    "category": "warhammer",
+    "description": "Костяк крупнейших армий Империума",
+    "price": 620,
+    "image": "img/warhammer/4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Adepta Sororitas: Sister Dogmata",
+    "category": "warhammer",
+    "description": "Блюстительница порядка",
+    "price": 55,
+    "image": "img/warhammer/5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Dungeons & Dragons. Книга игрока",
+    "category": "dnd",
+    "description": "Миру нужны герои. Вы готовы?",
+    "price": 157,
+    "image": "img/dnd/1.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Dungeons & Dragons. Руководство мастера подземелий",
+    "category": "dnd",
+    "description": "Путники узрят свою судьбу",
+    "price": 157,
+    "image": "img/dnd/2.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Dungeons & Dragons. Карты заклинаний: Бард",
+    "category": "dnd",
+    "description": "А не спеть ли мне песню?",
+    "price": 52,
+    "image": "img/dnd/3.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Dungeons & Dragons: Энциклопедия чудовищ",
+    "category": "dnd",
+    "description": "Здесь живут драконы",
+    "price": 157,
+    "image": "img/dnd/4.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Dungeons & Dragons. Вотердип: Драконий куш",
+    "category": "dnd",
+    "description": "Да начнётся охота за драконами!",
+    "price": 157,
+    "image": "img/dnd/5.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Konosuba — Megumin",
+    "category": "figures",
+    "description": "Фигурка Nendoroid",
+    "price": 68,
+    "image": "img/figures/1.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Metal Gear Solid 2 — Solid Snake",
+    "category": "figures",
+    "description": "Фигурка Figma",
+    "price": 73,
+    "image": "img/figures/2.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Фигурка Fate/Grand Order — Jeanne d'Arc 1/7",
+    "category": "figures",
+    "description": "",
+    "price": 225,
+    "image": "img/figures/3.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Фигурка Girls Frontline: OTs-14 - Crassula Volkensii Ver.",
+    "category": "figures",
+    "description": "",
+    "price": 95,
+    "image": "img/figures/4.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Фигурка Jojo no Kimyou na Bouken: Kujo Jotaro - Super Action Statue BIG",
+    "category": "figures",
+    "description": "Фигурка Figma",
+    "price": 100,
+    "image": "img/figures/5.jpg"
+  }
+]

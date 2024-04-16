@@ -22,7 +22,7 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="warhammer.html">Warhammer</a></li>
                                 <li><a class="dropdown-item" href="dnd.html">Dungeons & Dragons</a></li>
-                                <li><a class="dropdown-item" href="#">Фигурки</a></li>
+                                <li><a class="dropdown-item" href="figures.html">Фигурки</a></li>
                                 <!-- Другие категории -->
                             </ul>
                         </li>
@@ -67,69 +67,10 @@
                 <div class="col-md-9">
                     <h1>Warhammer</h1>
                     <!-- Сетка карточек товаров -->
-                    <div class="row row-cols-1 row-cols-md-3 g-4">
-                        <!-- Карточка товара -->
-                        <div class="col">
-                            <div class="card border">
-                                <img src="img\warhammer\1.jpg" class="card-img-top" alt="Mortarion: Daemon Primarch of Nurgle">
-                                <div class="product-card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Mortarion: Daemon Primarch of Nurgle (2020)</h5>
-                                        <p class="card-text">Король разложения и болезней</p>
-                                        <button class="btn btn-primary">559</button>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="container">
+                        <div id="product-grid-warhammer" class="row row-cols-1 row-cols-md-3">
+                            <!-- Карточки товаров Warhammer будут добавлены сюда -->
                         </div>
-                        <div class="col">
-                            <div class="card border">
-                                <img src="img\warhammer\2.jpg" class="card-img-top" alt="Combat Patrol: Death Guard">
-                                <div class="product-card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Combat Patrol: Death Guard</h5>
-                                        <p class="card-text">Заражение в 41-м тысячелетии</p>
-                                        <button class="btn btn-primary">540</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card border">
-                                <img src="img\warhammer\3.jpg" class="card-img-top" alt="Tyranids: Hormagaunts">
-                                <div class="product-card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Tyranids: Hormagaunts</h5>
-                                        <p class="card-text">Death Delivery</p>
-                                        <button class="btn btn-primary">159</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card border">
-                                <img src="img\warhammer\4.jpg" class="card-img-top" alt="Warhammer 40,000: Astra Militarum Army Set">
-                                <div class="product-card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Warhammer 40,000: Astra Militarum Army Set</h5>
-                                        <p class="card-text">Костяк крупнейших армий Империума.</p>
-                                        <button class="btn btn-primary">620</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card border">
-                                <img src="img\warhammer\5.jpg" class="card-img-top" alt="Adepta Sororitas: Sister Dogmata">
-                                <div class="product-card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Adepta Sororitas: Sister Dogmata</h5>
-                                        <p class="card-text">Блюстительница порядка</p>
-                                        <button class="btn btn-primary">55</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Другие карточки товаров -->
                     </div>
                 </div>
             </div>
@@ -153,6 +94,7 @@
         </footer>
     </div>
     <!-- Подключение скриптов Bootstrap -->
+    <script src="catalog.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
